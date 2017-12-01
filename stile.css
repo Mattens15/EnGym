@@ -1,0 +1,210 @@
+/* subtitle */
+h1{
+  font-size: 25px;
+  font-weight:bold;
+  font-family: "Montserrat";
+  color: DarkSlateGrey;
+}
+
+/* alert ed etichette */
+h2{
+  font-size: 25px;
+  font-weight:bold;
+  font-family: "Montserrat";
+  color: DarkRed;
+}
+
+/* testo standard */
+h3{
+  font-size: 15px;
+  font-weight:bold;
+  font-family: "Montserrat";
+  color: Black;
+}
+
+/* corsi piscina */
+h4{
+  font-size: 20px;
+  font-weight:bold;
+  font-family: "Montserrat";
+  color: White;
+}
+
+h5{
+  font-size: 15px;
+  font-weight: bold;
+  font-family: "Montserrat";
+  color: black;
+}
+
+h6{
+  font-size: 25px;
+  font-weight: bold;
+  font-family: "Montserrat";
+  color: Black;
+}
+
+h7{
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Montserrat";
+  color: DarkRed;
+}
+
+hr {
+    align:left;
+    background-color: black;
+    width: inherit;
+    height: 2px;
+}
+
+.container-fluid{
+  display: table;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 5%;
+  background-color: inherit;
+}
+
+.row{
+  width: 100%;
+  height: 30%;
+  display: table;
+  margin: inherit;
+  padding-top: 5%;
+}
+
+.column-maps{
+  width: 50%;
+  float: left;
+}
+
+.column-carosello{
+  width: inherit;
+  float: left;
+}
+
+.column-contatti{
+  width: 50%;
+  float: left;
+}
+
+.column-contattaci{
+  width: 100%;
+  float: left;
+}
+
+footer{
+  padding-left: 5%;
+}
+
+.card{
+  width: inherit;
+}
+
+.card-header{
+  width: inherit;
+}
+
+.column-social{
+  width: inherit;
+  float: center;
+  align-items: center;
+}
+.column-photoslink{
+  width: 50%;
+  float: left;
+  padding: inherit;
+}
+
+img:hover{
+  opacity: 0.8;
+}
+
+
+.background_color{
+  background-color: #F5F5F5;
+}
+
+.background_color_piscina{
+  background-color: #87CEFA;
+}
+
+.background_color_palestra{
+  background-color:  	#B22222;
+}
+.buttonspace{
+  width: 100%;
+}
+
+.buttonglobal:hover{
+  animation-delay:
+  width: 100%;
+  background-color: grey;
+  color: DarkSlateGrey;
+}
+
+.carousel{
+  margin-left: inherit;
+  margin-right: inherit;
+}
+
+.carousel-inner{
+    width: inherit;
+    height: inherit;
+}
+
+.carousel-inner img{
+  width: inherit;
+  height: inherit;
+  max-width: 1500px;
+  max-height: 600px;
+}
+
+.carousel-content {
+    color:black;
+    display:flex;
+    align-items:center;
+}
+
+.photoslink{
+  width: inherit;
+  height: inherit;
+  margin-left: inherit;
+  margin-right: inherit;
+}
+
+
+
+.fa {
+  font-size: 60px;
+  width: 70px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px;
+  border-radius: 10%;
+}
+
+.fa:hover {
+    color: black;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
