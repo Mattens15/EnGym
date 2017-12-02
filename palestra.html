@@ -10,7 +10,8 @@
   <link rel="stylesheet" type="text/css" href="stile.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
   <script type="text/javascript">
     $(function() {
         $(window).scroll(function() {
@@ -39,10 +40,10 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <a class="navbar-brand" href="index.html"><hnav>LOGO</hnav></a>
-    <div class="collapse navbar-collapse">
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav">
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             <hnav>ATTIVITA</hnav>
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -51,7 +52,7 @@
           </div>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             <hnav>STRUTTURA</hnav>
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -59,7 +60,7 @@
           </div>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             <hnav>ORARI</hnav>
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -142,165 +143,165 @@
     <div class="row" id="corsi">
       <hr>
       <div class="column-carosello">
-      <div id="accordion">
-        <div class="card">
-          <div class="card-header bg-dark">
-            <a class="collapsed card-link " data-toggle="collapse" data-parent="#accordion" href="#salapesi">
-              <h4>Sala pesi</h4>
+        <div id="accordion">
+          <div class="card">
+            <div class="card-header">
+              <a class="collapsed card-link" data-toggle="collapse" data-parent="#accordion" href="#salapesi">
+                <h4>Sala pesi</h4>
+              </a>
+            </div>
+            <div id="salapesi" class="collapse">
+              <div class="card-body">
+                <h3>"Aedificare perdere" dicevano i romani e noi lo abbiamo fatto il nostro motto. In sala pesi potrai allenare gli aspetti del tuo fisico che non ti piacciono rendendoli come vuoi.</h3>
+                <br>
+                <br>
+                <h2><label>ISTRUTTORI: Giuseppe Benincasa, Maurizio Merluzzo</label></h2>
+                <br>
+                <br>
+                <h2><label> ORARI </label></h2>
+                <table>
+                  <tr>
+                    <td align="left" ><h1>//</h1></td>
+                    <td align="left" ><h1>//</h1></td>
+                  </tr>
+                  <tr>
+                    <td align="left" ><h1>//</h1></td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header bg-dark">
+              <a class="collapsed card-link " data-toggle="collapse" data-parent="#accordion" href="#crossfit">
+              <h4>Crossfit</h4>
             </a>
-          </div>
-          <div id="salapesi" class="collapse">
-            <div class="card-body">
-              <h3>"Aedificare perdere" dicevano i romani e noi lo abbiamo fatto il nostro motto. In sala pesi potrai allenare gli aspetti del tuo fisico che non ti piacciono rendendoli come vuoi.</h3>
-              <br>
-              <br>
-              <h2><label>ISTRUTTORI: Giuseppe Benincasa, Maurizio Merluzzo</label></h2>
-              <br>
-              <br>
-              <h2><label> ORARI </label></h2>
-              <table>
-                <tr>
-                  <td align="left" ><h1>//</h1></td>
-                  <td align="left" ><h1>//</h1></td>
-                </tr>
-                <tr>
-                  <td align="left" ><h1>//</h1></td>
-                </tr>
-              </table>
+            </div>
+            <div id="crossfit" class="collapse">
+              <div class="card-body">
+                <h3>Tanta fatica, tanto dolore, tanti risultati. Se cerchi un allenamento per tenerti in forma e liberarti della pesantezza delle festività questo è il corso che fa per te.</h3>
+                <br>
+                <br>
+                <h2><label>ISTRUTTORI: Mario Rossi, Giuseppe Bianchi</label></h2>
+                <br>
+                <br>
+                <h2><label> ORARI: </label></h2>
+                <table>
+                  <tr>
+                    <td align="left" ><h1>//</h1></td>
+                    <td align="left" ><h1>//</h1></td>
+                  </tr>
+                  <tr>
+                    <td align="left" ><h1>//</h1></td>
+                  </tr>
+                </table>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="card">
-          <div class="card-header bg-dark">
-            <a class="collapsed card-link " data-toggle="collapse" data-parent="#accordion" href="#crossfit">
-            <h4>Crossfit</h4>
-          </a>
-          </div>
-          <div id="crossfit" class="collapse">
-            <div class="card-body">
-              <h3>Tanta fatica, tanto dolore, tanti risultati. Se cerchi un allenamento per tenerti in forma e liberarti della pesantezza delle festività questo è il corso che fa per te.</h3>
-              <br>
-              <br>
-              <h2><label>ISTRUTTORI: Mario Rossi, Giuseppe Bianchi</label></h2>
-              <br>
-              <br>
-              <h2><label> ORARI: </label></h2>
-              <table>
-                <tr>
-                  <td align="left" ><h1>//</h1></td>
-                  <td align="left" ><h1>//</h1></td>
-                </tr>
-                <tr>
-                  <td align="left" ><h1>//</h1></td>
-                </tr>
-              </table>
+          <div class="card">
+            <div class="card-header bg-dark">
+              <a class="collapsed card-link " data-toggle="collapse" data-parent="#accordion" href="#kickboxing">
+                <h4>Kick Boxing</h4>
+              </a>
+            </div>
+            <div id="kickboxing" class="collapse">
+              <div class="card-body">
+                <h3>Stanco della sala pesi? La Kick Boxing è un modo divertente e completo per tenersi in forma ed è la soluzione per non annoiarsi in palestra!</h3>
+                <br>
+                <h2><label>ISTRUTTORE: Francesca Verdi</label></h2>
+                <br>
+                <br>
+                <h2><label> ORARI: </label></h2>
+                <table>
+                  <tr>
+                    <td align="left" ><h1>//</h1></td>
+                    <td align="left" ><h1>//</h1></td>
+                  </tr>
+                  <tr>
+                    <td align="left" ><h1>//</h1></td>
+                  </tr>
+                </table>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="card">
-          <div class="card-header bg-dark">
-            <a class="collapsed card-link " data-toggle="collapse" data-parent="#accordion" href="#kickboxing">
-              <h4>Kick Boxing</h4>
-            </a>
-          </div>
-          <div id="kickboxing" class="collapse">
-            <div class="card-body">
-              <h3>Stanco della sala pesi? La Kick Boxing è un modo divertente e completo per tenersi in forma ed è la soluzione per non annoiarsi in palestra!</h3>
-              <br>
-              <h2><label>ISTRUTTORE: Francesca Verdi</label></h2>
-              <br>
-              <br>
-              <h2><label> ORARI: </label></h2>
-              <table>
-                <tr>
-                  <td align="left" ><h1>//</h1></td>
-                  <td align="left" ><h1>//</h1></td>
-                </tr>
-                <tr>
-                  <td align="left" ><h1>//</h1></td>
-                </tr>
-              </table>
+          <div class="card">
+            <div class="card-header bg-dark">
+              <a class="collapsed card-link " data-toggle="collapse" data-parent="#accordion" href="#pilates">
+                <h4>Pilates</h4>
+              </a>
+            </div>
+            <div id="pilates" class="collapse">
+              <div class="card-body">
+                <h3>Ponendo l'attenzione sul respiro, il metodo Pilates attiva muscoli lunghi ed articolazioni agili, sviluppando addominali forti per creare un corsetto naturale a proteggere la schiena.</h3>
+                <br>
+                <h2><label>ISTRUTTORE: Pasquale Esposito</label></h2>
+                <br>
+                <br>
+                <h2><label> ORARI: </label></h2>
+                <table>
+                  <tr>
+                    <td align="left" ><h1>//</h1></td>
+                    <td align="left" ><h1>//</h1></td>
+                  </tr>
+                  <tr>
+                    <td align="left" ><h1>//</h1></td>
+                  </tr>
+                </table>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="card">
-          <div class="card-header bg-dark">
-            <a class="collapsed card-link " data-toggle="collapse" data-parent="#accordion" href="#pilates">
-              <h4>Pilates</h4>
-            </a>
-          </div>
-          <div id="pilates" class="collapse">
-            <div class="card-body">
-              <h3>Ponendo l'attenzione sul respiro, il metodo Pilates attiva muscoli lunghi ed articolazioni agili, sviluppando addominali forti per creare un corsetto naturale a proteggere la schiena.</h3>
-              <br>
-              <h2><label>ISTRUTTORE: Pasquale Esposito</label></h2>
-              <br>
-              <br>
-              <h2><label> ORARI: </label></h2>
-              <table>
-                <tr>
-                  <td align="left" ><h1>//</h1></td>
-                  <td align="left" ><h1>//</h1></td>
-                </tr>
-                <tr>
-                  <td align="left" ><h1>//</h1></td>
-                </tr>
-              </table>
+          <div class="card">
+            <div class="card-header bg-dark">
+              <a class="collapsed card-link" data-toggle="collapse" data-parent="#accordion" href="#yoga">
+                <h4>Yoga</h4>
+              </a>
+            </div>
+            <div id="yoga" class="collapse">
+              <div class="card-body">
+                <h3>Lo Yoga nasce anticamente in India con lo scopo di armonizzare la mente e il corpo per giungere ad una maggiore consapevolezza di sè. Attraverso le Asana (posizioni e movimenti specifici del corpo) viene rafforzata e riequilibrata la parte fisica, mentre con tecniche di meditazione viene allenato il pensiero e la concentrazione.</h3>
+                <br>
+                <h2><label>ISTRUTTORE: Pasquale Esposito</label></h2>
+                <br>
+                <br>
+                <h2><label> ORARI: </label></h2>
+                <table>
+                  <tr>
+                    <td align="left" ><h1>//</h1></td>
+                    <td align="left" ><h1>//</h1></td>
+                  </tr>
+                  <tr>
+                    <td align="left" ><h1>//</h1></td>
+                  </tr>
+                </table>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="card">
-          <div class="card-header bg-dark">
-            <a class="collapsed card-link" data-toggle="collapse" data-parent="#accordion" href="#yoga">
-              <h4>Yoga</h4>
-            </a>
-          </div>
-          <div id="yoga" class="collapse">
-            <div class="card-body">
-              <h3>Lo Yoga nasce anticamente in India con lo scopo di armonizzare la mente e il corpo per giungere ad una maggiore consapevolezza di sè. Attraverso le Asana (posizioni e movimenti specifici del corpo) viene rafforzata e riequilibrata la parte fisica, mentre con tecniche di meditazione viene allenato il pensiero e la concentrazione.</h3>
-              <br>
-              <h2><label>ISTRUTTORE: Pasquale Esposito</label></h2>
-              <br>
-              <br>
-              <h2><label> ORARI: </label></h2>
-              <table>
-                <tr>
-                  <td align="left" ><h1>//</h1></td>
-                  <td align="left" ><h1>//</h1></td>
-                </tr>
-                <tr>
-                  <td align="left" ><h1>//</h1></td>
-                </tr>
-              </table>
+          <div class="card">
+            <div class="card-header bg-dark">
+              <a class="collapsed card-link " data-toggle="collapse" data-parent="#accordion" href="#pump">
+                <h4>Body Pump</h4>
+              </a>
+            </div>
+            <div id="pump" class="collapse">
+              <div class="card-body">
+                <h3>BODYPUMP™ si rinnova ogni tre mesi con coreografia all'avanguardia e musica top del momento nel mondo. La possibilità di variare il carico di lavoro e la motivazione di un istruttore allenato ad alti livelli ti permetteranno di vivere l'energia del gruppo e di raggiungere il risultato di cui sei alla ricerca!</h3>
+                <br>
+                <h2><label>ISTRUTTORE: Giuseppe Benincasa</label></h2>
+                <br>
+                <br>
+                <h2><label> ORARI: </label></h2>
+                <table>
+                  <tr>
+                    <td align="left" ><h1>//</h1></td>
+                    <td align="left" ><h1>//</h1></td>
+                  </tr>
+                  <tr>
+                    <td align="left" ><h1>//</h1></td>
+                  </tr>
+                </table>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="card">
-          <div class="card-header bg-dark">
-            <a class="collapsed card-link " data-toggle="collapse" data-parent="#accordion" href="#pump">
-              <h4>Body Pump</h4>
-            </a>
-          </div>
-          <div id="pump" class="collapse">
-            <div class="card-body">
-              <h3>BODYPUMP™ si rinnova ogni tre mesi con coreografia all'avanguardia e musica top del momento nel mondo. La possibilità di variare il carico di lavoro e la motivazione di un istruttore allenato ad alti livelli ti permetteranno di vivere l'energia del gruppo e di raggiungere il risultato di cui sei alla ricerca!</h3>
-              <br>
-              <h2><label>ISTRUTTORE: Giuseppe Benincasa</label></h2>
-              <br>
-              <br>
-              <h2><label> ORARI: </label></h2>
-              <table>
-                <tr>
-                  <td align="left" ><h1>//</h1></td>
-                  <td align="left" ><h1>//</h1></td>
-                </tr>
-                <tr>
-                  <td align="left" ><h1>//</h1></td>
-                </tr>
-              </table>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
     </div>
