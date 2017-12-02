@@ -4,7 +4,7 @@
   <title>EnGym Home</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Montserrat">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="stile.css">
@@ -17,8 +17,74 @@
     $('#avvisi').vTicker()
   });
   </script>
+  <script type="text/javascript">
+    $(function() {
+        $(window).scroll(function() {
+            if($(this).scrollTop() != 0) {
+                            //se non siamo in cima alla pagina
+                $('#top').fadeIn(); //faccio apparire il box
+            } else {
+                            //altrimenti (il visitatore è in cima alla pagina scrollTop = 0)
+                $('#top').fadeOut();//Il box scompare
+            }
+        });//Allo scroll function
+
+        $('#top').click(function() {
+                    //Se clicco sul box torno su (scrollTop:0) con un timing di animazione.
+            $('body,html').animate({scrollTop:0},800);
+        });//Click
+
+    });//DOM
+  </script>
 </head>
-<body class="background_color" data-spy="scroll" data-target=".navbar" data-offset="50">
+<body class="background_color">
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" href="index.html"><hnav>LOGO</hnav></a>
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <hnav>ATTIVITA</hnav>
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="palestra.html"><hnav>Palestra</hnav></a>
+              <a class="dropdown-item" href="piscina.html"><hnav>Piscina</hnav></a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <hnav>STRUTTURA</hnav>
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#photogallery"><hnav>Photogallery</hnav></a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <hnav>ORARI</hnav>
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="palestra.html"><hnav>Palestra</hnav></a>
+              <a class="dropdown-item" href="piscina.html"><hnav>Piscina</hnav></a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#avvisi"><hnav>Avvisi</hnav></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contatti"><hnav>Contatti</hnav></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contattaci"><hnav>Contattaci</hnav></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
 
     <!-- CONTENUTO SITO -->
     <div class="container-fluid">
@@ -64,15 +130,16 @@
 
     <!-- Avvisi -->
     <div class="row">
-      <h3>Avvisi</h3>
-
-      <div class="mx-auto bg-warning" style="width:inherit"  id="avvisi">
+      <div class="column-avvisi">
+      <h7>Avvisi</h7>
+      <div class="mx-auto bg-light" style="width:inherit;border:12px"  id="avvisi">
         <ul>
-          <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</li>
-          <li>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut</li>
-          <li>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</li>
+          <li><h5>EnGym Sport Club rimmarrà chiuso in occasione delle festività dal 24 dicembre al 6 gennaio!</h5></li>
+          <li><h5>Tutti i corsi della piscina sono iniziati. Prepara il costume :)</h5></li>
+          <li><h5>Tutti i corsi della palestra sono iniziati. Preparati a faticare ;)</h5></li>
         </ul>
       </div>
+    </div>
     </div>
 
 
@@ -82,14 +149,14 @@
     <div class="row">
       <hr>
       <div class="column-photoslink">
-      <a href="piscina.html"><img src="Photos/phelps.jpg" width="100%" border=”0″ hspace=”0″>
+      <a href="piscina.html"><img src="Photos/phelps.jpg" class="img-fluid" border=”0″ hspace=”0″>
         <span align="center">
           <h1>BUTTATI IN ACQUA</h1>
         </span>
       </a>
       </div>
       <div class="column-photoslink">
-        <a href="palestra.html"><img src="Photos/palestra.jpeg" width="100%"  border=”0″ hspace=”0″>
+        <a href="palestra.html"><img src="Photos/palestra.jpeg" class="img-fluid" border=”0″ hspace=”0″>
           <span align="center">
             <h1>VIENI IN PALESTRA</h1>
           </span>
@@ -177,5 +244,6 @@
     <a href="https://github.com/leri994" >Valerio Gullo</a>
   </h5>
   </footer>
+  <div id="top"><img src="Photos/tornasu.png"></div>
 </body>
 </html>

@@ -51,11 +51,59 @@ h7{
   color: DarkRed;
 }
 
+hnav{
+  font-size: inherit;
+  font-weight: inherit;
+  font-family: inherit;
+  color: white;
+}
+
 hr {
     align:left;
     background-color: black;
     width: inherit;
     height: 2px;
+}
+
+.navbar{
+  background-color: #696969;
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+
+.mx-auto{
+  border: 2px;
+  border-color: black;
+}
+
+.dropdown-menu{
+  background-color: DarkSlateGrey;
+}
+
+.dropdown-item:hover{
+  background-color: red;
+}
+
+.nav-item:hover, .dropdown:hover{
+  background-color: red;
+}
+
+#top{
+  width:100px;
+  text-align:center;
+  padding:5px;
+  position:fixed;
+  bottom:10px;
+  right:10px;
+  cursor:pointer;
+  display:none;
+  font-family:verdana;
+  font-size:12px;
+}
+
+#top img{
+  width: 30px;
+  height: 30px;
 }
 
 .container-fluid{
@@ -68,7 +116,6 @@ hr {
 
 .row{
   width: 100%;
-  height: 30%;
   display: table;
   margin: inherit;
   padding-top: 5%;
@@ -82,6 +129,11 @@ hr {
 .column-carosello{
   width: inherit;
   float: left;
+}
+
+.column-avvisi{
+  width: 100%;
+  float: left
 }
 
 .column-contatti{
@@ -117,7 +169,7 @@ footer{
   padding: inherit;
 }
 
-img:hover{
+.column-photoslink img:hover{
   opacity: 0.8;
 }
 
@@ -132,16 +184,6 @@ img:hover{
 
 .background_color_palestra{
   background-color:  	#B22222;
-}
-.buttonspace{
-  width: 100%;
-}
-
-.buttonglobal:hover{
-  animation-delay:
-  width: 100%;
-  background-color: grey;
-  color: DarkSlateGrey;
 }
 
 .carousel{
@@ -166,15 +208,6 @@ img:hover{
     display:flex;
     align-items:center;
 }
-
-.photoslink{
-  width: inherit;
-  height: inherit;
-  margin-left: inherit;
-  margin-right: inherit;
-}
-
-
 
 .fa {
   font-size: 60px;
