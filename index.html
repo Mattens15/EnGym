@@ -190,6 +190,7 @@
            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2969.2071694347646!2d12.514374315859923!3d41.909904979219725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132f6170c67bddb1%3A0xd363c42f7482af0b!2sA.S.D+Le+Club!5e0!3m2!1sit!2sit!4v1511796118700" width="90%" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
        </div>
        <div class="column-contatti">
+         <div style="overflow-x:auto;">
          <table align="center">
            <tr>
              <td align="center"><h1>CONTATTI</h1></td>
@@ -209,35 +210,42 @@
           </table>
         </div>
       </div>
+    </div>
 
       <!-- SEZIONE CONTATTACI -->
       <div id="contattaci" class="row">
-        <hr>
         <div class="column-contattaci">
+          <div style="overflow-x:auto;">
           <table align="center">
              <tr>
                <td align="center"><h7>CONTATTACI</h7></td>
              </tr>
              <tr><td>
              <form name="contattaci">
-               <h6>Cognome:</h6>
-               <input type="text" name="cognome" size="50" maxlength="30" required>
-               <h6>Nome:</h6>
-               <input type="text" name="nome" size="50" maxlength="30" required>
-               <h6>Email:</h6>
-               <input type="email" name="email" placeholder="Inserisci il tuo indirizzo e-mail" size="50" maxlength="30" required>
-               <h6>Messaggio:</h6>
-               <textarea name="messaggio" rows="10" cols="50" required></textarea>
-               <br>
-               <input type="submit" value="Invia">
-               <input type="reset" valure="Reset">
+               <div class="form-group">
+                 <label><h6>nome</h6></label>
+                 <input type="text" class="form-control" maxlength="20" required>
+               </div>
+               <div class="form-group">
+                 <label><h6>cognome</h6></label>
+                 <input type="text" class="form-control" maxlength="20" required>
+               </div>
+               <div class="form-group">
+                 <label><h6>email</h6></label>
+                 <input type="email" class="form-control" required>
+               </div>
+               <div class="form-group">
+                 <label><h6>messaggio</h6></label>
+                 <textarea class="form-control" rows="10" cols="30" required></textarea>
+               </div>
+               <input type="submit" class="btn" value="Invia">
+               <input type="reset"  class="btn" value="Reset">
              </form>
               </td></tr>
             </table>
           </div>
+        </div>
       </div>
-      <hr>
-    </div>
   <footer>
     <h5><label>Coded by: </label>
     <a href="https://github.com/Mattens15">Matteo Attenni</a>
