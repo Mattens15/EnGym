@@ -68,10 +68,6 @@ hr {
   font-weight: bold;
 }
 
-.mx-auto{
-  border: 2px;
-  border-color: black;
-}
 
 .dropdown-menu{
   background-color: DarkSlateGrey;
@@ -141,6 +137,8 @@ hr {
 .column-contattaci{
   width: 100%;
   float: left;
+  border-style: solid;
+  border-width: 2px;
 }
 
 footer{
@@ -164,17 +162,37 @@ footer{
   height: inherit;
   float: center;
   align-items: center;
+  border-style: solid;
+  border-width: 2px;
+  border-color: DarkRed;
 }
+
+
+.column-calendar{
+  width: inherit;
+  height: inherit;
+  float: left;
+}
+
+.column-corsi{
+  width: inherit;
+  height: inherit;
+  float: left;
+}
+
 .column-photoslink{
   width: 50%;
   height: inherit;
   max-height: 512px;
-  float: left
+  float: left;
 }
 
 .column-photoslink img{
   width: inherit;
   height: inherit;
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
   height: 512px;
   max-height: 512px;
 }
@@ -218,6 +236,9 @@ footer{
 
 .carousel-inner img{
   width: inherit;
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
   height: 600px;
   max-height: 600px;
 }
