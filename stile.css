@@ -1,60 +1,52 @@
 /* subtitle */
 h1{
   font-size: 100%;
-  font-weight:bold;
-  font-family: "Montserrat";
+  font-family: "Roboto";
   color: DarkSlateGrey;
 }
 
 /* alert ed etichette */
 h2{
   font-size: 100%;
-  font-weight:bold;
-  font-family: "Montserrat";
+  font-family: "Roboto";
   color: DarkRed;
 }
 
 /* testo standard */
 h3{
   font-size: 100%;
-  font-weight:bold;
-  font-family: "Montserrat";
+  font-family: "Roboto";
   color: Black;
 }
 
 /* corsi piscina */
 h4{
   font-size: 100%;
-  font-weight:bold;
-  font-family: "Montserrat";
+  font-family: "Roboto";
   color: White;
 }
 
 h5{
   font-size: 100%;
-  font-weight: bold;
-  font-family: "Montserrat";
+  font-family: "Roboto";
   color: black;
 }
 
 h6{
   font-size: 100%;
-  font-weight: bold;
-  font-family: "Montserrat";
+  font-family: "Roboto";
   color: Black;
 }
 
 h7{
   font-size: 100%;
-  font-weight: bold;
-  font-family: "Montserrat";
+  font-family: "Roboto";
   color: DarkRed;
 }
 
 hnav{
-  font-size: inherit;
-  font-weight: bold;
-  font-family: inherit;
+  font-size: 100%;
+  font-family: "Roboto";
   color: white;
 }
 
@@ -65,9 +57,14 @@ hr {
     height: 2px;
 }
 
+@font-face {
+    font-family: "Roboto";
+    src: url(Fonts/Roboto/Roboto-Bold.ttf);
+}
+
 .navbar{
   background-color: #696969;
-  font-family: "Montserrat";
+  font-family: "Roboto";
   font-weight: bold;
 }
 
