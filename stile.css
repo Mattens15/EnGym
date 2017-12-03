@@ -141,22 +141,6 @@ hr {
   border-width: 2px;
 }
 
-footer{
-  padding-left: 5%;
-}
-
-.card{
-  width: inherit;
-}
-
-.card-header{
-  width: inherit;
-}
-
-.card-header{
-  background-color: DarkSlateGrey;
-}
-
 .column-social{
   width: inherit;
   height: inherit;
@@ -209,6 +193,22 @@ footer{
 .carousel slide{
   width: inherit;
   height: inherit;
+}
+
+footer{
+  padding-left: 5%;
+}
+
+.card{
+  width: inherit;
+}
+
+.card-header{
+  width: inherit;
+}
+
+.card-header{
+  background-color: DarkSlateGrey;
 }
 
 .background_color{
