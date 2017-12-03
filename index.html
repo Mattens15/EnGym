@@ -11,6 +11,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+  <script src="./history.js"></script>
 
   <!--
   $(function() {
@@ -37,7 +38,7 @@
     });//DOM
   </script>
 </head>
-<body class="background_color">
+<body class="background_color" onLoad="storageInit()">
 
     <!-- NAVBAR -->
     <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
@@ -188,31 +189,34 @@
                <td align="center"><h7>CONTATTACI</h7></td>
              </tr>
              <tr><td>
-             <form name="contattaci">
+             <form name="contattaci" onSubmit="return inserisciRichiesta();">
                <div class="form-group">
                  <label><h6>nome</h6></label>
-                 <input type="text" class="form-control" maxlength="20" required>
+                 <input type="text" name="nome" class="form-control" maxlength="20" required>
                </div>
                <div class="form-group">
                  <label><h6>cognome</h6></label>
-                 <input type="text" class="form-control" maxlength="20" required>
+                 <input type="text" name="cognome" class="form-control" maxlength="20" required>
                </div>
                <div class="form-group">
                  <label><h6>email</h6></label>
-                 <input type="email" class="form-control" required>
+                 <input type="email" name="email" class="form-control" required>
                </div>
                <div class="form-group">
                  <label><h6>messaggio</h6></label>
-                 <textarea class="form-control" rows="10" cols="30" required></textarea>
+                 <textarea class="form-control" name="messaggio" rows="10" cols="30" required></textarea>
                </div>
-               <input type="submit" class="btn" value="Invia">
+               <input type="submit" class="btn" value="Invia" onclick="stampaStorage();">
                <input type="reset"  class="btn" value="Reset">
              </form>
               </td></tr>
             </table>
+            <!--Storico richieste-->
+          <div id="storico"></div>
           </div>
         </div>
       </div>
+
     </div>
   <footer>
     <h5><label>Coded by: </label>
