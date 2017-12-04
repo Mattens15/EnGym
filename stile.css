@@ -170,7 +170,7 @@ hr {
 
 .column-photoslink img{
   width: 100%;
-  height: inherit;
+  height: 400px;
   border-style: solid;
   border-width: 2px;
   border-color: black;
@@ -182,12 +182,12 @@ hr {
 
 .carousel-inner{
   width: inherit;
-  height: 100%;
+  height: inherit;
 }
 
 .carousel slide{
   width: inherit;
-  height: 100%;
+  height: inherit;
 }
 
 footer{
@@ -224,16 +224,16 @@ footer{
 }
 
 .carousel-inner{
-    width: 100%;
+    width: inherit;
     height: inherit;
 }
 
 .carousel-inner img{
   width: inherit;
+  height: 400px;
   border-style: solid;
   border-width: 2px;
   border-color: black;
-  height: inherit;
 }
 
 .carousel-content {
