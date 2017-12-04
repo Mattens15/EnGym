@@ -236,12 +236,6 @@ footer{
   border-color: black;
 }
 
-.carousel-content {
-    color:black;
-    display:flex;
-    align-items:center;
-}
-
 .fa {
   font-size: 50px;
   width: 50px;
