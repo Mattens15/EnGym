@@ -181,7 +181,7 @@ hr {
   max-height: 512px;
 }
 
-.column-photoslink img:hover{
+.column-photoslink:hover img{
   opacity: 0.8;
 }
 
