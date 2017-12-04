@@ -175,8 +175,8 @@ hr {
   border-style: solid;
   border-width: 2px;
   border-color: black;
-  height: 512px;
-  max-height: 512px;
+  height: inherit;
+  max-height: inherit;
 }
 
 .column-photoslink:hover img{
