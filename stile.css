@@ -169,13 +169,11 @@ hr {
 }
 
 .column-photoslink img{
-  width: inherit;
+  width: 100%;
   height: inherit;
   border-style: solid;
   border-width: 2px;
   border-color: black;
-  height: inherit;
-  max-height: inherit;
 }
 
 .column-photoslink:hover img{
@@ -227,7 +225,7 @@ footer{
 
 .carousel-inner{
     width: 100%;
-    height: 100%;
+    height: inherit;
 }
 
 .carousel-inner img{
@@ -235,7 +233,7 @@ footer{
   border-style: solid;
   border-width: 2px;
   border-color: black;
-  height: 100%;
+  height: inherit;
 }
 
 .carousel-content {
