@@ -147,6 +147,8 @@
           <tr>
             <td><label><h2>ORA IN PISCINA</h2></label></td>
           </tr>
+          <tr><td><div id="piscinaincorso"></div></td></tr>
+          </tr>
         </table>
       </div>
       <div class="column-inpalestra">
@@ -155,6 +157,24 @@
           <td><label><h2>ORA IN PALESTRA</h2></label></td>
           </tr>
           <tr><td><div id="palestraincorso"></div></td></tr>
+        </table>
+      </div>
+    </div>
+
+    <!-- SEZIONE AVVISI -->
+    <div class="row">
+      <div class="column-avvisi">
+        <table align="left">
+          <tr>
+            <td><label><h2>AVVISI</h2></label></td>
+          </tr>
+          <tr><td><div id="avvisi">
+            <ul>
+              <li><h6>RICORDIAMO CHE L'8 DICEMBRE LA PALESTRA RIMANE CHIUSA</h6></li>
+              <li><h6>LA PALESTRA RIMANE CHIUSA IN OCCASIONE DELLE FESTIVITÀ NATALIZIE, DAL 23 DICEMBRE AL 7 GENNAIO 2018</h6></li>
+              <li><h6>RICORDIAMO CHE PER MOTIVI DI IGIENE, È OBBLIGATORIO ESSERE MUNITI DI ASCIUGAMANO E SCARPE PULITE PER ACCEDERE IN PALESTRA</h6></li>
+            </ul>
+          </div></td></tr>
         </table>
       </div>
     </div>
@@ -198,8 +218,7 @@
                  <h6>Cellulare: +39 333 12345678</h6>
                  <h6>Email: info@engym.it</h6>
                  <h7>ORARI D'APERTURA:</h7>
-                 <h6>dal lunedì al venerdì: 7:00-22:30</h6>
-                 <h6>sabato e domenica: 9:00-18:00</h6>
+                 <h6>tutti i giorni, dal lunedì alla domenica: 8:00-22:00</h6>
             </form>
             </td></tr>
           </table>
@@ -218,19 +237,19 @@
              <tr><td>
              <form name="contattaci" method="post" onSubmit="inserisciRichiesta()">
                <div class="form-group">
-                 <label><h6>nome</h6></label>
+                 <label><h6>Nome</h6></label>
                  <input type="text" name="nome" class="form-control" maxlength="20" required>
                </div>
                <div class="form-group">
-                 <label><h6>cognome</h6></label>
+                 <label><h6>Cognome</h6></label>
                  <input type="text" name="cognome" class="form-control" maxlength="20" required>
                </div>
                <div class="form-group">
-                 <label><h6>email</h6></label>
+                 <label><h6>Email</h6></label>
                  <input type="email" name="email" class="form-control" required>
                </div>
                <div class="form-group">
-                 <label><h6>messaggio</h6></label>
+                 <label><h6>Messaggio</h6></label>
                  <textarea class="form-control" name="messaggio" rows="10" cols="30" required></textarea>
                </div>
                <input type="submit" class="btn" value="Invia" onclick="stampaStorage()">
