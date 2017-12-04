@@ -196,7 +196,7 @@ hr {
 
 .column-avvisi{
   width: 100%;
-  float: left;
+  float: center;
   height: inherit;
   border-style: solid;
   border-width: 1px;
