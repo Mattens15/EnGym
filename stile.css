@@ -123,7 +123,6 @@ hr {
 .column-carosello{
   width: 100%;
   height: inherit;
-  max-height: 700px;
   padding-top: 5%;
   float: left;
 }
