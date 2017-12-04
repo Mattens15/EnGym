@@ -123,7 +123,6 @@ hr {
 .column-carosello{
   width: 100%;
   height: inherit;
-  padding-top: 5%;
   float: left;
 }
 
@@ -185,12 +184,12 @@ hr {
 
 .carousel-inner{
   width: inherit;
-  height: inherit;
+  height: 100%;
 }
 
 .carousel slide{
   width: inherit;
-  height: inherit;
+  height: 100%;
 }
 
 footer{
@@ -236,7 +235,7 @@ footer{
   border-style: solid;
   border-width: 2px;
   border-color: black;
-  height: inherit;
+  height: 100%;
 }
 
 .carousel-content {
