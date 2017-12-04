@@ -1,7 +1,7 @@
 function avvisi(){
 
 $(function() {
-  $('#example').vTicker()
+  $('#avvisi').vTicker()
 });
 
 }
