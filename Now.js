@@ -13,11 +13,11 @@ function attivita(){
   var x= d.getDay();
   var h= d.getHours();
   if(h>22||h<8){
-    document.getElementById("msg").innerHTML="Palestra chiusa";
+    document.getElementById("palestraincorso").innerHTML="<h6>Palestra chiusa</h6>";
     setInterval("attivita()",300000);
   }
   else{
-    document.getElementById("msg").innerHTML=c[x][h-8];
+    document.getElementById("palestraincorso").innerHTML="<h6>"+c[x][h-8]+"</h6>";
     setInterval("attivita()",300000);
   }
 }
