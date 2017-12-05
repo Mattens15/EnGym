@@ -253,7 +253,7 @@
                  <label><h6>Messaggio</h6></label>
                  <textarea class="form-control" name="messaggio" rows="10" cols="30" required></textarea>
                </div>
-               <input type="submit" class="btn" value="Invia" onclick="stampaStorage()">
+               <input type="submit" class="btn" value="Invia">
                <input type="reset"  class="btn" value="Reset">
              </form>
               </td></tr>
@@ -261,11 +261,14 @@
           </div>
         </div>
             <!--Storico richieste-->
-        <div  class="column-richieste" id="storico">
+        <div  class="column-richieste">
           <table align="center" cellpadding=10>
             <tr>
               <td><label><h2>LE TUE RICHIESTE</h2></label></td>
             </tr>
+	    <tr>
+	      <td><div id="storico"></div></td>
+	    </tr>
           </table>
         </div>
       </div>

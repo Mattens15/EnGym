@@ -12,7 +12,6 @@ function stampaStorage(){
   }
   document.getElementById("storico").innerHTML=s;
   console.log(s);
-  return true;
 }
 
 function inserisciRichiesta(){
@@ -24,6 +23,5 @@ function inserisciRichiesta(){
            m: document.contattaci.messaggio.value};
   u[next]=o;
   localStorage.richieste=JSON.stringify(u);
-  console.log(o);
-  return true;
+  stampaStorage();
 }
