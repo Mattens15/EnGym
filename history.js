@@ -11,7 +11,6 @@ function stampaStorage(){
     s+="<h1>Nome:</h1>"+u[i].n+"<br/><h1>Cognome:</h1>"+u[i].c+"<br/><h1>Email:</h1>"+u[i].e+"<br/><h1>Messaggio:</h1>"+u[i].m+"<br/>";
   }
   document.getElementById("storico").innerHTML=s;
-  console.log(s);
 }
 
 function inserisciRichiesta(){
@@ -23,5 +22,4 @@ function inserisciRichiesta(){
            m: document.contattaci.messaggio.value};
   u[next]=o;
   localStorage.richieste=JSON.stringify(u);
-  stampaStorage();
 }
