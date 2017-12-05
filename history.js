@@ -8,7 +8,7 @@ function stampaStorage(){
   var l= u.length;
   var s= new String("<h1>Storico delle Richieste:</h1>");
   for(var i=0;i<l;i++){
-    s+="<h1>Nome:</h1>"+u[i].n+"<br/><h1>Cognome:</h1>"+u[i].c+"<br/><h1>Email:</h1>"+u[i].e+"<br/><h1>Messaggio:</h1>"+u[i].m+"<br/>";
+    s+="<br/><h1>Messaggio:</h1>"+u[i].m+"<br/>";
   }
   document.getElementById("storico").innerHTML=s;
 }

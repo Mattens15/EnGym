@@ -255,22 +255,23 @@
                </div>
                <input type="submit" class="btn" value="Invia">
                <input type="reset"  class="btn" value="Reset">
-               <input type="button" class="btn" value="Storico" onclick="stampaStorage()"
+               <input type="button" class="btn" value="Storico" onclick="stampaStorage()">
              </form>
               </td></tr>
             </table>
           </div>
         </div>
+
             <!--Storico richieste-->
         <div  class="column-richieste">
-          <table align="center" cellpadding=10>
-            <tr>
-              <td><label><h2>LE TUE RICHIESTE</h2></label></td>
-            </tr>
-            <tr><td>
-            <div id="storico"></div>
-          </td></tr>
-          </table>
+              <table align="center" cellpadding=10 overflow="scroll">
+                <tr>
+                  <td><label><h2>LE TUE RICHIESTE</h2></label></td>
+                </tr>
+                <tr><td>
+                <div id="storico"></div>
+              </td></tr>
+              </table>
         </div>
       </div>
 
