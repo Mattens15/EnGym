@@ -1,11 +1,11 @@
 var c={
         0:["Sala pesi","Sala pesi","Sala pesi","Sala pesi","Sala pesi","Sala pesi","Sala pesi","Sala pesi","Sala pesi","Sala pesi","Sala pesi","Sala pesi","Sala pesi","Sala pesi"],
         1:["Crossfit - Yoga","Crossfit - Yoga","Sala pesi","Sala pesi","Sala pesi","Sala pesi","Sala pesi","Sala pesi","Sala pesi","Sala pesi","Sala pesi","Yoga","Pilates - Crossfit","Crossfit"],
-        2:["Yoga","Yoga","BODYPUMP","BODYPUMP","Pilates - Kick Boxing","Kick Boxing","Sala pesi","Sala pesi","Sala pesi","Sala pesi","Sala pesi","Pilates","BODYPUMP - Kick Boxing","Kick Boxing"],
-        3:["Yoga - Crossfit","Crossfit","Sala pesi","Sala pesi","Sala pesi","Pilates","Pilates","Sala pesi","Sala pesi","Sala pesi","Sala pesi","Pilates","Pilates - Crossfit","Cross fit"],
-        4:["Yoga","Yoga","BODYPUMP","BODYPUMP","Pilates - Kick Boxing","Pilates - Kick Boxing","Sala pesi","Sala pesi","Sala pesi","Sala pesi","Sala pesi","Pilates - Kick Boxing","Pilates - Kick Boxing","BODYPUMP"],
+        2:["Yoga","Yoga","BODYPUMP","BODYPUMP","Pilates - Kickboxing","Kickboxing","Sala pesi","Sala pesi","Sala pesi","Sala pesi","Sala pesi","Pilates","BODYPUMP - Kickboxing","Kickboxing"],
+        3:["Yoga - Crossfit","Yoga - Crossfit","Sala pesi","Sala pesi","Sala pesi","Pilates","Pilates","Sala pesi","Sala pesi","Sala pesi","Sala pesi","Pilates","Pilates - Crossfit","Cross fit"],
+        4:["Yoga","Yoga","BODYPUMP","BODYPUMP","Pilates - Kickboxing","Pilates - Kickboxing","Sala pesi","Sala pesi","Sala pesi","Sala pesi","Sala pesi","Pilates - Kickboxing","Pilates - Kickboxing","BODYPUMP"],
         5:["Crossfit - Yoga","Crossfit - Yoga","Sala pesi","Sala pesi","Pilates","Pilates","Sala pesi","Sala pesi","Sala pesi","Sala pesi","Sala pesi","Pilates - Yoga","Pilates - Yoga - Crossfit","Crossfit"],
-        6:["Yoga - BODYPUMP","Yoga - BODYPUMP","Sala pesi","Sala pesi","Sala pesi","Kick Boxing","Kick Boxing","Sala pesi","Sala pesi","Sala pesi","Sala pesi","Sala pesi","Sala pesi","Sala pesi"]
+        6:["Yoga - BODYPUMP","Yoga - BODYPUMP","Sala pesi","Sala pesi","Sala pesi","Kickboxing","Kickboxing","Sala pesi","Sala pesi","Sala pesi","Sala pesi","Sala pesi","Sala pesi","Sala pesi"]
 };
 
 function attivita(){
