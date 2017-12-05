@@ -6,13 +6,12 @@ function storageInit(){
 function stampaStorage(){
   var u= JSON.parse(localStorage.richieste);
   var l= u.length;
-  var s= new String("<h3>Storico delle Richieste:</h3>");
+  var s= new String("<h1>Storico delle Richieste:</h1>");
   for(var i=0;i<l;i++){
-    s+="<h3>Nome:</h3>"+u[i].n+"<br/><h3>Cognome:</h3>"+u[i].c+"<br/><h3>Email:</h3>"+u[i].e+"<br/><h3>Messaggio:</h3>"+u[i].m+"<br/>";
+    s+="<h1>Nome:</h1>"+u[i].n+"<br/><h1>Cognome:</h1>"+u[i].c+"<br/><h1>Email:</h1>"+u[i].e+"<br/><h1>Messaggio:</h1>"+u[i].m+"<br/>";
   }
   document.getElementById("storico").innerHTML=s;
   console.log(s);
-  return true;
 }
 
 function inserisciRichiesta(){
@@ -24,6 +23,5 @@ function inserisciRichiesta(){
            m: document.contattaci.messaggio.value};
   u[next]=o;
   localStorage.richieste=JSON.stringify(u);
-  console.log(o);
-  return true;
+  stampaStorage();
 }
