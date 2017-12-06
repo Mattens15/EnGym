@@ -135,12 +135,16 @@ hr {
 .column-contattaci{
   width: 50%;
   float: left;
+  display: block;
 }
 
 .column-richieste{
   width: 50%;
   float: left;
+  max-height: 300px;
+  display: block;
 }
+
 
 .column-social{
   width: inherit;
