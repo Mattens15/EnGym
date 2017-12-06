@@ -16,11 +16,6 @@
   <script src="./nowgym.js"></script>
   <script src="./avvisiscript.js"></script>
 
-  <!--
-  $(function() {
-    $('#avvisi').vTicker()
-  });
-  -->
   <script type="text/javascript">
     $(function() {
         $(window).scroll(function() {
@@ -41,7 +36,8 @@
     });//DOM
   </script>
 </head>
-<body class="background_color" onLoad="storageInit(); attivita(); avvisi()">
+
+<body class="background_color" onLoad="storageInit(); attivitaGym(); attivitaPool(); avvisi()">
 
     <!-- NAVBAR -->
     <nav class="navbar navbar-toggleable-md navbar-light bg-faded">

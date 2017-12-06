@@ -8,16 +8,16 @@ var c={
         6:["Yoga - BODYPUMP","Yoga - BODYPUMP","Sala pesi","Sala pesi","Sala pesi","Kickboxing","Kickboxing","Sala pesi","Sala pesi","Sala pesi","Sala pesi","Sala pesi","Sala pesi","Sala pesi"]
 };
 
-function attivitaGym(){
+function attivitaPool(){
   var d = new Date();
   var x= d.getDay();
   var h= d.getHours();
   if(h>21||h<8){
-    document.getElementById("palestraincorso").innerHTML="<h6>Engym chiusa</h6>";
-    setInterval("attivitaGym()",300000);
+    document.getElementById("piscinaincorso").innerHTML="<h6>Engym chiusa</h6>";
+    setInterval("attivitaPool()",300000);
   }
   else{
-    document.getElementById("palestraincorso").innerHTML="<h6>Ore "+h+":00: "+c[x][h-8]+"</h6>";
-    setInterval("attivita()",300000);
+    document.getElementById("piscinaincorso").innerHTML="<h6>Ore "+h+":00: "+c[x][h-8]+"</h6>";
+    setInterval("attivitaPool()",300000);
   }
 }
