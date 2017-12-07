@@ -118,28 +118,33 @@ hr {
   width: 50%;
   height: inherit;
   float: left;
+  display: block;
 }
 
 .column-carosello{
   width: 100%;
   height: inherit;
   float: left;
+  display: block;
 }
 
 .column-contatti{
   width: 50%;
   height: inherit;
   float: left;
+  display: block;
 }
 
 .column-contattaci{
   width: 50%;
+  max-width: 50%;
   float: left;
   display: block;
 }
 
 .column-richieste{
   width: 50%;
+  max-width: 50%;
   float: left;
   display: block;
 }
@@ -149,6 +154,7 @@ hr {
   width: inherit;
   height: inherit;
   float: center;
+  display: block;
   align-items: center;
   border-style: solid;
   border-width: 1px;
@@ -160,18 +166,21 @@ hr {
   width: inherit;
   height: inherit;
   float: left;
+  display: block;
 }
 
 .column-corsi{
   width: inherit;
   height: inherit;
   float: left;
+  display: block;
 }
 
 .column-photoslink{
   width: 50%;
   height: inherit;
   float: left;
+  display: block;
 }
 
 .column-photoslink img{
@@ -189,7 +198,7 @@ hr {
   border-style: solid;
   border-width: 1px;
   border-color: black;
-  display: inline-block;
+  display: block;
 }
 
 .column-inpalestra{
@@ -199,7 +208,7 @@ hr {
   border-style: solid;
   border-width: 1px;
   border-color: black;
-  display: inline-block;
+  display: block;
 }
 
 .column-avvisi{
@@ -209,6 +218,7 @@ hr {
   border-style: solid;
   border-width: 1px;
   border-color: black;
+  display: block;
 }
 
 .column-photoslink:hover img{
