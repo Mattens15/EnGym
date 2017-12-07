@@ -274,6 +274,11 @@ footer{
   padding-left: 1%;
 }
 
+.card-body #storico{
+  overflow: auto;
+  max-height: 400px;
+}
+
 .fa {
   font-size: 50px;
   width: 50px;
