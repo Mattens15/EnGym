@@ -38,7 +38,7 @@
   </script>
 </head>
 
-<body class="background_color" onLoad="storageInit(); attivitaGym(); attivitaPool(); avvisi()">
+<body class="background_color" onLoad="storageInit(); stampaStorage(); attivitaGym(); attivitaPool(); avvisi()">
 
     <!-- NAVBAR -->
     <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
@@ -233,7 +233,7 @@
                <td align="center"><h7>CONTATTACI</h7></td>
              </tr>
              <tr><td>
-             <form name="contattaci" method="post" onSubmit="stampaStorage()">
+             <form name="contattaci" method="post">
                <div class="form-group">
                  <label><h6>Nome</h6></label>
                  <input type="text" name="nome" class="form-control" maxlength="20" required>
@@ -270,7 +270,7 @@
                 </a>
               </div>
               <div id="lostorico" class="collapse">
-                <div id="storico" class="card-body">
+                <div id="storico" class="card-body" style="height:300; overflow:scroll;">
                 </div>
               </div>
             </div>
