@@ -1,11 +1,11 @@
 var c={
-        0:["Sala pesi","Sala pesi","Sala pesi","Sala pesi","Sala pesi","Sala pesi","Sala pesi","Sala pesi","Sala pesi","Sala pesi","Sala pesi","Sala pesi","Sala pesi","Sala pesi"],
-        1:["Crossfit - Yoga","Crossfit - Yoga","Sala pesi","Sala pesi","Sala pesi","Sala pesi","Sala pesi","Sala pesi","Sala pesi","Sala pesi","Sala pesi","Yoga","Pilates - Crossfit","Crossfit"],
-        2:["Yoga","Yoga","BODYPUMP","BODYPUMP","Pilates - Kickboxing","Kickboxing","Sala pesi","Sala pesi","Sala pesi","Sala pesi","Sala pesi","Pilates","BODYPUMP - Kickboxing","Kickboxing"],
-        3:["Yoga - Crossfit","Yoga - Crossfit","Sala pesi","Sala pesi","Sala pesi","Pilates","Pilates","Sala pesi","Sala pesi","Sala pesi","Sala pesi","Pilates","Pilates - Crossfit","Cross fit"],
-        4:["Yoga","Yoga","BODYPUMP","BODYPUMP","Pilates - Kickboxing","Pilates - Kickboxing","Sala pesi","Sala pesi","Sala pesi","Sala pesi","Sala pesi","Pilates - Kickboxing","Pilates - Kickboxing","BODYPUMP"],
-        5:["Crossfit - Yoga","Crossfit - Yoga","Sala pesi","Sala pesi","Pilates","Pilates","Sala pesi","Sala pesi","Sala pesi","Sala pesi","Sala pesi","Pilates - Yoga","Pilates - Yoga - Crossfit","Crossfit"],
-        6:["Yoga - BODYPUMP","Yoga - BODYPUMP","Sala pesi","Sala pesi","Sala pesi","Kickboxing","Kickboxing","Sala pesi","Sala pesi","Sala pesi","Sala pesi","Sala pesi","Sala pesi","Sala pesi"]
+        0:["Nuoto libero","Nuoto libero","Nuoto libero","Nuoto libero","Nulla in corso","Nulla in corso","Nulla in corso","Nulla in corso","Nulla in corso","Nulla in corso","Nulla in corso","Nulla in corso","Nulla in corso"],
+        1:["Nuoto libero","Nuoto libero","Nulla in corso","Nulla in corso","Nulla in corso","Nuoto Master","Nuoto Master","Nuoto Agonistico","Nuoto Agonistico - Scuola Nuoto","Nuoto Agonistico - Scuola Nuoto","Scuola Nuoto","Scuola Nuoto","Nuoto libero - Nuoto Master","Nuoto libero - Nuoto Master"],
+        2:["Riabilitazione in acqua","Riabilitazione in acqua","Riabilitazione in acqua","Nulla in corso","Nulla in corso","Nulla in corso","Nulla in corso","Nuoto Agonistico","Nuoto Agonistico - Scuola Nuoto","Nuoto Agonistico - Scuola Nuoto","Scuola Nuoto","Scuola Nuoto","Acquagym","Acquagym"],
+        3:["Nuoto libero","Nuoto libero","Nulla in corso","Nulla in corso","Nulla in corso","Nuoto Master","Nuoto Master","Nuoto Agonistico","Nuoto Agonistico - Scuola Nuoto","Nuoto Agonistico - Scuola Nuoto","Scuola Nuoto","Scuola Nuoto","Nuoto libero - Nuoto Master","Nuoto libero - Nuoto Master"],
+        4:["Riabilitazione in acqua","Riabilitazione in acqua","Riabilitazione in acqua","Nulla in corso","Nulla in corso","Nulla in corso","Nulla in corso","Nuoto Agonistico","Nuoto Agonistico - Scuola Nuoto","Nuoto Agonistico - Scuola Nuoto","Scuola Nuoto","Scuola Nuoto","Acquagym","Acquagym"],
+        5:["Nuoto libero","Nuoto libero","Nulla in corso","Nulla in corso","Nulla in corso","Nuoto Master","Nuoto Master","Nuoto Agonistico","Nuoto Agonistico - Scuola Nuoto","Nuoto Agonistico - Scuola Nuoto","Scuola Nuoto","Scuola Nuoto","Nuoto libero - Nuoto Master","Nuoto libero - Nuoto Master"],
+        6:["Nuoto Agonistico - Riabilitazione in acqua","Nuoto Agonistico - Riabilitazione in acqua","Nuoto Agonistico - Riabilitazione in acqua","Nuoto Agonistico","Nulla in corso","Nulla in corso","Nulla in corso","Scuola Nuoto","Scuola Nuoto","Nulla in corso","Nulla in corso","Nulla in corso","Nulla in corso","Nulla in corso"]
 };
 
 function attivitaPool(){
