@@ -247,6 +247,7 @@ hnav{
 
 footer{
   padding-left: 10%;
+  background-color: inherit;
 }
 
 .card{
