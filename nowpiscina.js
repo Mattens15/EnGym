@@ -1,4 +1,4 @@
-var c={
+var g={
         0:["Nuoto libero","Nuoto libero","Nuoto libero","Nuoto libero","Nulla in corso","Nulla in corso","Nulla in corso","Nulla in corso","Nulla in corso","Nulla in corso","Nulla in corso","Nulla in corso","Nulla in corso"],
         1:["Nuoto libero","Nuoto libero","Nulla in corso","Nulla in corso","Nulla in corso","Nuoto Master","Nuoto Master","Nuoto Agonistico","Nuoto Agonistico - Scuola Nuoto","Nuoto Agonistico - Scuola Nuoto","Scuola Nuoto","Scuola Nuoto","Nuoto libero - Nuoto Master","Nuoto libero - Nuoto Master"],
         2:["Riabilitazione in acqua","Riabilitazione in acqua","Riabilitazione in acqua","Nulla in corso","Nulla in corso","Nulla in corso","Nulla in corso","Nuoto Agonistico","Nuoto Agonistico - Scuola Nuoto","Nuoto Agonistico - Scuola Nuoto","Scuola Nuoto","Scuola Nuoto","Acquagym","Acquagym"],
@@ -17,7 +17,7 @@ function attivitaPool(){
     setInterval("attivitaPool()",300000);
   }
   else{
-    document.getElementById("piscinaincorso").innerHTML="<h6>Ore "+h+":00: "+c[x][h-8]+"</h6>";
+    document.getElementById("piscinaincorso").innerHTML="<h6>Ore "+h+":00: "+g[x][h-8]+"</h6>";
     setInterval("attivitaPool()",300000);
   }
 }
