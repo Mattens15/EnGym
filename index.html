@@ -258,19 +258,24 @@
           </div>
         </div>
 
-        <div class="column-richieste">
-          <div style="overflow:auto">
-            <table align="center" width="inherit" height="300" display="inline">
-              <tr>
-                <td align="left"><h2>LE TUE RICHIESTE</h2></td>
-              </tr>
-              <tr><td>
-                <div id="storico" width="inherit" height="inherit" display="inherit">
-                </div>
-              </tr></td>
-            </table>
-          </div>
+        <div id="richieste" class="column-richieste">
+          <div id="accordion">
+            <div class="card">
+              <div class="card-header bg-danger">
+                <a class="collapsed card-link" data-toggle="collapse" data-parent="accordion" href="#richieste">
+                  <table align="center"><tr<><td>
+                  <h4> LE TUE RICHIESTE </h4>
+                  </tr></td>
+                </table>
+                </a>
+              </div>
+              <div id="lostorico" class="collapse">
+              <div id="storico" class="card-body">
+              </div>
+              </div>
+            </div>
         </div>
+      </div>
       </div>
     </div>
   <footer>
