@@ -135,14 +135,15 @@ hr {
 .column-contattaci{
   width: 50%;
   float: left;
-  display: block;
+  display: inline-block;
 }
 
 .column-richieste{
   width: 50%;
   float: left;
+  height: 300px;
   max-height: 300px;
-  display: block;
+  display: inline-block;
 }
 
 
@@ -234,9 +235,6 @@ footer{
 
 .card-header{
   width: inherit;
-}
-
-.card-header{
   background-color: DarkSlateGrey;
 }
 
@@ -274,10 +272,6 @@ footer{
   padding-left: 1%;
 }
 
-.card-body #storico{
-  overflow: auto;
-  max-height: 400px;
-}
 
 .fa {
   font-size: 50px;
