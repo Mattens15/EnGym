@@ -191,6 +191,7 @@ hr {
   border-style: solid;
   border-width: 1px;
   border-color: black;
+  display: inline-block;
 }
 
 .column-inpalestra{
@@ -200,6 +201,7 @@ hr {
   border-style: solid;
   border-width: 1px;
   border-color: black;
+  display: inline-block;
 }
 
 .column-avvisi{
