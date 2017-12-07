@@ -232,7 +232,7 @@
                <td align="center"><h7>CONTATTACI</h7></td>
              </tr>
              <tr><td>
-             <form name="contattaci" method="post" onSubmit="inserisciRichiesta()">
+             <form name="contattaci" method="post" onSubmit="stampaStorage()">
                <div class="form-group">
                  <label><h6>Nome</h6></label>
                  <input type="text" name="nome" class="form-control" maxlength="20" required>
@@ -249,20 +249,19 @@
                  <label><h6>Messaggio</h6></label>
                  <textarea class="form-control" name="messaggio" rows="10" cols="30" required></textarea>
                </div>
-               <input type="submit" class="btn" value="Invia">
+               <input type="submit" class="btn" value="Invia" onclick="inserisciRichiesta()">
                <input type="reset"  class="btn" value="Reset">
-               <input type="button" class="btn" value="Storico" onclick="stampaStorage()">
              </form>
               </td></tr>
             </table>
           </div>
         </div>
 
-        <div id="richieste" class="column-richieste">
+        <div class="column-richieste">
           <div id="accordion">
             <div class="card">
               <div class="card-header bg-danger">
-                <a class="collapsed card-link" data-toggle="collapse" data-parent="accordion" href="#richieste">
+                <a class="collapsed card-link" data-toggle="collapse" data-parent="#accordion" href="#lostorico">
                   <table align="center"><tr<><td>
                   <h4> LE TUE RICHIESTE </h4>
                   </tr></td>
@@ -270,8 +269,8 @@
                 </a>
               </div>
               <div id="lostorico" class="collapse">
-              <div id="storico" class="card-body">
-              </div>
+                <div id="storico" class="card-body">
+                </div>
               </div>
             </div>
         </div>
