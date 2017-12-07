@@ -52,7 +52,7 @@
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <a class="navbar-brand" href="index.html"><img src="Logo/engym.png" class="img-fluid"></a>
+      <a class="navbar-brand" href="index.html"><img src="Logo/engym.png"></a>
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav">
           <li class="nav-item dropdown">
@@ -111,16 +111,16 @@
         <!-- The slideshow -->
         <div class="carousel-inner" role="listbox">
           <div class="carousel-item active">
-            <img src="Photos/gym1.jpg" class="img-fluid">
+            <img src="Photos/gym1.jpg" class="img-responsive">
           </div>
           <div class="carousel-item">
-            <img src="Photos/pool1.jpg" class="img-fluid">
+            <img src="Photos/pool1.jpg" class="img-responsive">
           </div>
           <div class="carousel-item">
-            <img src="Photos/gym2.jpg" class="img-fluid">
+            <img src="Photos/gym2.jpg" class="img-responsive">
           </div>
           <div class="carousel-item">
-            <img src="Photos/pool2.jpg" class="img-fluid">
+            <img src="Photos/pool2.jpg" class="img-responsive">
           </div>
         </div>
         <a class="carousel-control-prev" href="#slide" role="button" data-slide="prev">
@@ -138,28 +138,27 @@
     <!-- IMMAGINI CON LINK ALLE ALTRE PAGINE -->
     <div class="row">
       <div class="column-photoslink">
-            <a href="piscina.html"><h2>BUTTATI IN ACQUA</h2><img src="Photos/phelps.jpg" class="img-fluid" alt="Buttati in piscina" border=”0″ hspace=”0″></a>
+            <a href="piscina.html"><h2>BUTTATI IN ACQUA</h2><img src="Photos/phelps.jpg" class="img-responsive" alt="Buttati in piscina"></a>
       </div>
       <div class="column-photoslink">
-            <a href="palestra.html"><h2>VIENI IN PALESTRA</h2><img src="Photos/palestra.jpg" class="img-fluid" alt="Vieni in palestra" border=”0″ hspace=”0″></a>
+            <a href="palestra.html"><h2>VIENI IN PALESTRA</h2><img src="Photos/palestra.jpg" class="img-responsive" alt="Vieni in palestra"></a>
       </div>
     </div>
 
     <!-- SEZIONE ATTIVITA IN CORSO -->
     <div class="row">
       <div  class="column-inpiscina">
-        <table align="left" cellpadding=10>
+        <table align="center">
           <tr>
-            <td><label><h2>ORA IN PISCINA</h2></label></td>
+            <td><h2>ORA IN PISCINA</h2></td>
           </tr>
           <tr><td><div id="piscinaincorso"></div></td></tr>
-          </tr>
         </table>
       </div>
       <div class="column-inpalestra">
-        <table align="left" cellpadding=10>
+        <table align="center">
           <tr>
-          <td><label><h2>ORA IN PALESTRA</h2></label></td>
+          <td><h2>ORA IN PALESTRA</h2></td>
           </tr>
           <tr><td><div id="palestraincorso"></div></td></tr>
         </table>
@@ -280,6 +279,7 @@
               </div>
             </div>
         </div>
+        <input type="submit" class="btn" value="clear hystory">
       </div>
       </div>
     </div>
