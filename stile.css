@@ -130,21 +130,6 @@ hnav{
   display: block;
 }
 
-.column-contattaci{
-  width: 50%;
-  height: auto;
-  float: left;
-  display: block;
-}
-
-.column-richieste{
-  width: 50%;
-  height: auto;
-  float: left;
-  display: block;
-}
-
-
 .column-social{
   width: 100%;
   height: auto;
@@ -214,18 +199,29 @@ hnav{
   display: block;
 }
 
+.column-personal{
+  width: 50%;
+  height: auto;
+  display: block;
+  float: left;
+}
+
+.column-storico{
+  width: 50%;
+  height: auto;
+  display: block;
+  float: left;
+}
+
+
 .column-contattaci{
-  width: 50%;
+  width: 100%;
   height: auto;
-  display: run-in;
+  border-style: solid;
+  border-width: thin;
+  border-color: black;
+  display: block;
 }
-
-.column-richieste{
-  width: 50%;
-  height: auto;
-  display: inline;
-}
-
 .column-photoslink:hover img{
   opacity: 0.8;
 }

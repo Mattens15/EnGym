@@ -85,6 +85,9 @@
             <a class="nav-link" href="#sezioneavvisi"><hnav>Avvisi</hnav></a>
           </li>
           <li class="nav-item">
+            <a class="nav-link" href="#bodymassindex"><hnav>Bmi</hnav></a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link" href="#contatti"><hnav>Contatti</hnav></a>
           </li>
           <li class="nav-item">
@@ -183,6 +186,58 @@
       </div>
     </div>
 
+    <!-- SEZIONE BMI E STORICO -->
+    <div id="bodymassindex" class="row">
+
+      <div class="column-personal">
+        <table align="center">
+           <tr>
+             <td align="center"><h7>BODY MASS INDEX CALCULATOR:</h7></td>
+           </tr>
+           <tr><td>
+           <form name="bmiform" method="post">
+             <div class="form-group">
+               <label><h6>Altezza (in centimetri):</h6></label>
+               <input type="number" name="altezza" class="form-control" maxlength="20" required>
+             </div>
+             <div class="form-group">
+               <label><h6>Peso (in chilogrammi):</h6></label>
+               <input type="number" name="peso" class="form-control" maxlength="20" required>
+             </div>
+             <div class="radio-inline">
+               <h6>Sesso:</h6>
+               <label><input type="radio" name="sesso"><h1>M</h1></label>
+               <label><input type="radio" name="sesso"><h1>F</h2></label>
+             </div>
+             <input type="submit" class="btn" value="Invia" onclick="inserisciBMI()">
+             <input type="reset"  class="btn" value="Reset">
+           </form>
+            </td></tr>
+          </table>
+        </div>
+
+
+        <div class="column-storico">
+          <div id="accordion">
+             <div class="card">
+               <div class="card-header bg-danger">
+                 <a class="collapsed card-link" data-toggle="collapse" data-parent="#accordion" href="#lostorico">
+                   <table align="center"><tr<><td>
+                   <h4> I TUOI PROGRESSI </h4>
+                   </tr></td>
+                  </table>
+                 </a>
+               </div>
+               <div id="lostorico" class="collapse">
+                 <div id="storico" class="card-body" style="max-height:500px; overflow:scroll;">
+                 </div>
+               </div>
+             </div>
+            <input type="submit" class="btn" value="Clear History" onclick="resetStorage()">
+          </div>
+        </div>
+
+    </div>
 
 
 
@@ -230,58 +285,40 @@
       </div>
       </div>
 
-      <!-- SEZIONE CONTATTACI E RICHIESTE -->
-      <div id="bodymassindex" class="row">
-        <div class="column-personal">
-          <table align="center">
-             <tr>
-               <td align="center"><h7>BODY MASS INDEX CALCULATOR:</h7></td>
-             </tr>
-             <tr><td>
-             <form name="bmiform" method="post">
-               <div class="form-group">
-                 <label><h6>Altezza (in centimetri):</h6></label>
-                 <input type="number" name="altezza" class="form-control" maxlength="20" required>
-               </div>
-               <div class="form-group">
-                 <label><h6>Peso (in chilogrammi):</h6></label>
-                 <input type="number" name="peso" class="form-control" maxlength="20" required>
-               </div>
-               <div class="form-group">
-                 <label><h6>Sesso:</h6></label>
-                 <input type="radio" name="sesso" class="form-control" value="M">M
-                 <input type="radio" name="sesso" class="form-control" value="F">F
-               </div>
-               <input type="submit" class="btn" value="Invia" onclick="inserisciBMI()">
-               <input type="reset"  class="btn" value="Reset">
-             </form>
-              </td></tr>
-            </table>
+    <!-- SEZIONE CONTATTACI -->
+    <div id="contattaci" class="row">
+      <div class="column-contattaci">
+        <table align="center">
+           <tr>
+             <td align="center"><h7>CONTATTACI</h7></td>
+           </tr>
+           <tr><td>
+         <form name="contattaci" method="post">
+             <div class="form-group">
+               <label><h6>Nome</h6></label>
+               <input type="text" name="nome" class="form-control" maxlength="20" required>
+             </div>
+             <div class="form-group">
+               <label><h6>Cognome</h6></label>
+               <input type="text" name="cognome" class="form-control" maxlength="20" required>
+             </div>
+             <div class="form-group">
+               <label><h6>Email</h6></label>
+               <input type="email" name="email" class="form-control" required>
+             </div>
+             <div class="form-group">
+               <label><h6>Messaggio</h6></label>
+               <textarea class="form-control" name="messaggio" rows="10" cols="30" required></textarea>
+             </div>
+             <input type="submit" class="btn" value="Invia">
+             <input type="reset"  class="btn" value="Reset">
+           </form>
+            </td></tr>
+          </table>
         </div>
-
-        <div class="column-storico">
-          <div id="accordion">
-            <div class="card">
-              <div class="card-header bg-danger">
-                <a class="collapsed card-link" data-toggle="collapse" data-parent="#accordion" href="#lostorico">
-                  <table align="center"><tr<><td>
-                  <h4> LE TUE RICHIESTE </h4>
-                  </tr></td>
-                </table>
-                </a>
-              </div>
-              <div id="lostorico" class="collapse">
-                <div id="storico" class="card-body" style="max-height:500px; overflow:scroll;">
-                </div>
-              </div>
-            </div>
-        </div>
-        <form>
-        <input type="submit" class="btn" value="Clear History" onclick="resetStorage()">
-      </form>
-      </div>
-      </div>
     </div>
+</div>
+
   <footer>
     <h5><label>Coded by: </label>
     <a href="https://github.com/Mattens15">Matteo Attenni</a>

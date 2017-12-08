@@ -29,7 +29,6 @@ function inserisciBMI(){
   else if (tempbmi>=35 && tempbmi<=39.99){ temp="OBESITÀ CLASSE II (media)";}
   else if (tempbmi>=40){ tempbmi="OBESITÀ CLASSE III (grave)";}
 
-  }
   var o = {
            bmi: tempbmi,
            stato: temp
