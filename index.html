@@ -12,7 +12,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
   <script src="./avvisi.js"></script>
-  <script src="./history.js"></script>
+  <script src="./bmi.js"></script>
   <script src="./nowgym.js"></script>
   <script src="./nowpiscina.js"></script>
 
@@ -231,38 +231,35 @@
       </div>
 
       <!-- SEZIONE CONTATTACI E RICHIESTE -->
-      <div id="contattaci" class="row">
-        <div class="column-contattaci">
+      <div id="bodymassindex" class="row">
+        <div class="column-personal">
           <table align="center">
              <tr>
-               <td align="center"><h7>CONTATTACI</h7></td>
+               <td align="center"><h7>BODY MASS INDEX CALCULATOR:</h7></td>
              </tr>
              <tr><td>
-             <form name="contattaci" method="post">
+             <form name="bmiform" method="post">
                <div class="form-group">
-                 <label><h6>Nome</h6></label>
-                 <input type="text" name="nome" class="form-control" maxlength="20" required>
+                 <label><h6>Altezza (in centimetri):</h6></label>
+                 <input type="number" name="altezza" class="form-control" maxlength="20" required>
                </div>
                <div class="form-group">
-                 <label><h6>Cognome</h6></label>
-                 <input type="text" name="cognome" class="form-control" maxlength="20" required>
+                 <label><h6>Peso (in chilogrammi):</h6></label>
+                 <input type="number" name="peso" class="form-control" maxlength="20" required>
                </div>
                <div class="form-group">
-                 <label><h6>Email</h6></label>
-                 <input type="email" name="email" class="form-control" required>
+                 <label><h6>Sesso:</h6></label>
+                 <input type="radio" name="sesso" class="form-control" value="M">M
+                 <input type="radio" name="sesso" class="form-control" value="F">F
                </div>
-               <div class="form-group">
-                 <label><h6>Messaggio</h6></label>
-                 <textarea class="form-control" name="messaggio" rows="10" cols="30" required></textarea>
-               </div>
-               <input type="submit" class="btn" value="Invia" onclick="inserisciRichiesta()">
+               <input type="submit" class="btn" value="Invia" onclick="inserisciBMI()">
                <input type="reset"  class="btn" value="Reset">
              </form>
               </td></tr>
             </table>
         </div>
 
-        <div class="column-richieste">
+        <div class="column-storico">
           <div id="accordion">
             <div class="card">
               <div class="card-header bg-danger">
@@ -279,7 +276,9 @@
               </div>
             </div>
         </div>
-        <input type="submit" class="btn" value="clear hystory">
+        <form>
+        <input type="submit" class="btn" value="Clear History" onclick="resetStorage()">
+      </form>
       </div>
       </div>
     </div>
