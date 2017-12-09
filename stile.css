@@ -228,15 +228,20 @@ hnav{
 
 .img-responsive{
   width: 100%;
+  height: auto;
 }
 
 .carousel-inner{
   width: inherit;
   height: auto;
-  max-height: 400px;
 }
 
-.carousel slide{
+.carousel{
+  width: inherit;
+  height: auto;
+}
+
+.slide{
   width: inherit;
   height: auto;
 }
