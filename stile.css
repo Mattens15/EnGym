@@ -160,7 +160,7 @@ hnav{
   width: 50%;
   height: auto;
   float: left;
-  display: block;
+  display: inline-block;
 }
 
 .column-photoslink img{
@@ -176,7 +176,7 @@ hnav{
   border-style: solid;
   border-width: thin;
   border-color: black;
-  display: flex;
+  display: block;
 }
 
 .column-inpalestra{
@@ -186,7 +186,7 @@ hnav{
   border-style: solid;
   border-width: thin;
   border-color: black;
-  display: flex;
+  display: block;
 }
 
 .column-avvisi{
