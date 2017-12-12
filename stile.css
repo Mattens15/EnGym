@@ -120,7 +120,7 @@ hnav{
   width: 100%;
   height: auto;
   float: left;
-  display: block;
+  display: inline-block;
 }
 
 .column-contatti{
@@ -234,16 +234,19 @@ hnav{
 .carousel-inner{
   width: inherit;
   height: auto;
+  display: inline-block;
 }
 
 .carousel{
   width: inherit;
   height: auto;
+  display: inline-block;
 }
 
 .slide{
   width: inherit;
   height: auto;
+  display: inline-block;
 }
 
 footer{
