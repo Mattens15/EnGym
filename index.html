@@ -180,7 +180,7 @@
               <li><h6>ENGYM RIMANE CHIUSA IN OCCASIONE DELLE FESTIVITÀ NATALIZIE, DAL 23 DICEMBRE AL 7 GENNAIO 2018</h6></li>
               <li><h6>RICORDIAMO CHE PER MOTIVI DI IGIENE, È OBBLIGATORIO ESSERE MUNITI DI ASCIUGAMANO E SCARPE PULITE PER ACCEDERE IN PALESTRA</h6></li>
               <li><h6>RICORDIAMO CHE PER MOTIVI DI IGIENE, È OBBLIGATORIO FARE LA DOCCIA PRIMA DI ACCEDERE AL PIANO VASCA</h6></li>
-              <li><h6>RICORDIAMO CHE PER MOTIVI DI IGIENE, È VIETATO ACCEDERE AL PIANO VASCA CON LE SCARPE</h6></li>    
+              <li><h6>RICORDIAMO CHE PER MOTIVI DI IGIENE, È VIETATO ACCEDERE AL PIANO VASCA CON LE SCARPE</h6></li>
             </ul>
           </div></td></tr>
         </table>
@@ -205,10 +205,12 @@
                <label><h6>Peso (in chilogrammi):</h6></label>
                <input type="number" name="peso" class="form-control" maxlength="20" required>
              </div>
-             <div class="radio-inline">
+             <div class="radio-block">
                <h6>Sesso:</h6>
-               <label><input type="radio" name="sesso" value="M"><h1>M</h1></label>
-               <label><input type="radio" name="sesso" value="F"><h1>F</h2></label>
+               <input type="radio" class="form-radio-inline" name="sesso" value="M">
+               <label for="sesso1"><h1>M</h1></label>
+               <input type="radio" class="form-radio-inline" name="sesso" value="F">
+               <label for="sesso2"><h1>F</h1></label>
              </div>
              <input type="submit" class="btn" value="Invia" onclick="inserisciBMI()">
              <input type="reset"  class="btn" value="Reset">
