@@ -176,7 +176,7 @@ hnav{
   border-style: solid;
   border-width: thin;
   border-color: black;
-  display: block;
+  display: flex;
 }
 
 .column-inpalestra{
@@ -186,7 +186,7 @@ hnav{
   border-style: solid;
   border-width: thin;
   border-color: black;
-  display: block;
+  display: flex;
 }
 
 .column-avvisi{
@@ -196,7 +196,7 @@ hnav{
   border-style: solid;
   border-width: thin;
   border-color: DarkRed;
-  display: block;
+  display: flex;
 }
 
 .column-personal{
