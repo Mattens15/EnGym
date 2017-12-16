@@ -231,51 +231,25 @@ hnav{
 }
 
 .carousel{
-  width: inherit;
   margin-left: inherit;
   margin-right: inherit;
-  height: auto;
-  display: inline-block;
 }
 
-
-.slide{
-  width: inherit;
+.carousel-item{
   height: auto;
-  display: inline-block;
+  max-height: 400px;
 }
 
-
-.carousel-inner{
-  width: 100%;
-  max-width: 100%;
-  height: auto;
-  display: inline-block;
-}
-
-.carousel-inner img{
+.carousel-item img{
   border-style: solid;
   border-width: thin;
   border-color: black;
   display: block;
 }
 
-.carousel-item{
-  width: 100%;
-  max-width: 100%;
-  height: auto;
-}
-
 .img-responsive{
   width: 100%;
   height: auto;
-}
-
-
-.slide{
-  width: inherit;
-  height: auto;
-  display: inline-block;
 }
 
 footer{
