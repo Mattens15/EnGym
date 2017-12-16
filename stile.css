@@ -248,6 +248,7 @@ hnav{
 
 .carousel-inner{
   width: 100%;
+  max-width: 100%;
   height: auto;
   display: inline-block;
 }
@@ -256,11 +257,12 @@ hnav{
   border-style: solid;
   border-width: thin;
   border-color: black;
-  display: inline-block;
+  display: block;
 }
 
 .carousel-item{
   width: 100%;
+  max-width: 100%;
   height: auto;
 }
 
