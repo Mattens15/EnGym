@@ -109,18 +109,20 @@ hnav{
   padding-top: 5%;
 }
 
-.column-maps{
-  width: 50%;
-  height: auto;
-  float: left;
-  display: block;
-}
 
 .column-carosello{
   width: 100%;
   height: auto;
   float: left;
   display: inline-block;
+}
+
+
+.column-maps{
+  width: 50%;
+  height: auto;
+  float: left;
+  display: block;
 }
 
 .column-contatti{
@@ -168,6 +170,11 @@ hnav{
   border-width: 1px;
   border-color: black;
 }
+
+.column-photoslink:hover img{
+  opacity: 0.8;
+}
+
 
 .column-inpiscina{
   width: 50%;
@@ -222,8 +229,39 @@ hnav{
   border-color: black;
   display: block;
 }
-.column-photoslink:hover img{
-  opacity: 0.8;
+
+.carousel{
+  width: inherit;
+  margin-left: inherit;
+  margin-right: inherit;
+  height: auto;
+  display: inline-block;
+}
+
+
+.slide{
+  width: inherit;
+  height: auto;
+  display: inline-block;
+}
+
+
+.carousel-inner{
+  width: 100%;
+  height: auto;
+  display: inline-block;
+}
+
+.carousel-inner img{
+  border-style: solid;
+  border-width: thin;
+  border-color: black;
+  display: inline-block;
+}
+
+.carousel-item{
+  width: 100%;
+  height: auto;
 }
 
 .img-responsive{
@@ -231,17 +269,6 @@ hnav{
   height: auto;
 }
 
-.carousel-inner{
-  width: inherit;
-  height: auto;
-  display: inline-block;
-}
-
-.carousel{
-  width: inherit;
-  height: auto;
-  display: inline-block;
-}
 
 .slide{
   width: inherit;
@@ -278,33 +305,6 @@ footer{
 
 .background_color_palestra{
   background-color:  	#B22222;
-}
-
-.carousel{
-  margin-left: inherit;
-  margin-right: inherit;
-  display: inline-block;
-}
-
-.carousel-inner{
-    width: 100%;
-    max-width: 100%;
-    height: auto;
-    display: inline-block;
-}
-
-.carousel-item{
-  width: 100%;
-  max-width: 100%;
-  height: auto;
-}
-
-
-.carousel-inner img{
-  border-style: solid;
-  border-width: 1px;
-  border-color: black;
-  display: inline-block;
 }
 
 .fa {
