@@ -7,7 +7,7 @@ function stampaStorage(){
   var u= JSON.parse(localStorage.bodymassindex);
   var l= u.length;
   var d= new Date();
-  var today=d.getDate()+"/"+d.getMonth()+"/"+d.getFullYear();
+  var today=d.getDate()+"/"+(d.getMonth() + 1)+"/"+d.getFullYear();
   var s= new String("<h1>Storico indice di massa corporea:</h1>");
   for(var i=0;i<l;i++){
     s+="<br/><h1>Data:"+today+" </h1><h1>BMI:</h1>"+u[i].bmi+" <h1>"+u[i].stato+"</h1><br/>";
