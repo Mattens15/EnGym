@@ -117,14 +117,6 @@ hnav{
   display: block;
 }
 
-
-.column-maps{
-  width: 100%;
-  height: auto;
-  float: left;
-  display: block;
-}
-
 .column-contatti{
   width: 50%;
   height: auto;
@@ -226,7 +218,7 @@ hnav{
   height: auto;
   float: left;
   display: block;
-  padding-right: 10%;
+  padding-right: 5%;
 }
 
 .carousel{
