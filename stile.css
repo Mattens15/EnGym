@@ -1,51 +1,51 @@
 /* subtitle */
 h1{
-  font-size: 1vw;
+  font-size: 1em;
   font-family: "Roboto";
   color: DarkSlateGrey;
 }
 
 /* alert ed etichette */
 h2{
-  font-size: 1vw;
+  font-size: 1em;
   font-family: "Roboto";
   color: DarkRed;
 }
 
 /* testo standard */
 h3{
-  font-size: 1vw;
+  font-size: 1em;
   font-family: "Roboto";
   color: Black;
 }
 
 /* corsi piscina */
 h4{
-  font-size: 1vw;
+  font-size: 1em;
   font-family: "Roboto";
   color: White;
 }
 
 h5{
-  font-size: 1vw;
+  font-size: 1em;
   font-family: "Roboto";
   color: black;
 }
 
 h6{
-  font-size: 1vw;
+  font-size: 1em;
   font-family: "Roboto";
   color: Black;
 }
 
 h7{
-  font-size: 1vw;
+  font-size: 1em;
   font-family: "Roboto";
   color: DarkRed;
 }
 
 hnav{
-  font-size: 1vw;
+  font-size: 1em;
   font-family: "Roboto";
   color: white;
 }
@@ -53,7 +53,7 @@ hnav{
 
 @font-face {
     font-family: "Roboto";
-    src: url(Fonts/Roboto/Roboto-Bold.ttf);
+    src: url(Fonts/Roboto/Roboto-Medium.ttf);
 }
 
 .navbar{
@@ -198,7 +198,7 @@ hnav{
 
 .column-avvisi{
   width: 100%;
-  float: left;
+  float: center;
   height: auto;
   border-style: solid;
   border-width: thin;
@@ -226,6 +226,7 @@ hnav{
   height: auto;
   float: left;
   display: block;
+  padding-right: 10%;
 }
 
 .carousel{
