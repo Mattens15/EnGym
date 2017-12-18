@@ -90,9 +90,6 @@
           <li class="nav-item">
             <a class="nav-link" href="#contatti"><hnav>Contatti</hnav></a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contattaci"><hnav>Contattaci</hnav></a>
-          </li>
         </ul>
       </div>
     </nav>
@@ -153,7 +150,7 @@
       <div  class="column-inpiscina">
         <table align="left" cellpadding=5>
           <tr>
-            <td><h2>ORA IN PISCINA</h2></td>
+            <td align="center"><h2>ORA IN PISCINA</h2></td>
           </tr>
           <tr><td><div id="piscinaincorso"></div></td></tr>
         </table>
@@ -161,7 +158,7 @@
       <div class="column-inpalestra">
         <table align="left" cellpadding=5>
           <tr>
-          <td><h2>ORA IN PALESTRA</h2></td>
+          <td align="center"><h2>ORA IN PALESTRA</h2></td>
           </tr>
           <tr><td><div id="palestraincorso"></div></td></tr>
         </table>
@@ -169,11 +166,11 @@
     </div>
 
     <!-- SEZIONE AVVISI -->
-    <div class="row">
+    <div   class="row">
       <div id="sezioneavvisi" class="column-avvisi">
         <table align="left" width="100%" cellpadding=10>
           <tr>
-            <td><label><h2>AVVISI</h2></label></td>
+            <td align="center"><label><h2>AVVISI</h2></label></td>
           </tr>
           <tr><td><div id="avvisi">
             <ul>
@@ -265,16 +262,42 @@
 
     <!-- SEZIONE MAPPA,CONTATTI -->
      <div id="contatti" class="row">
-       <div class="column-maps">
-           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2969.2071694347646!2d12.514374315859923!3d41.909904979219725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132f6170c67bddb1%3A0xd363c42f7482af0b!2sA.S.D+Le+Club!5e0!3m2!1sit!2sit!4v1511796118700" width="80%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
-       </div>
+       <div class="column-contattaci">
+         <table align="center">
+            <tr>
+              <td align="center"><h7>CONTATTACI</h7></td>
+            </tr>
+            <tr><td>
+          <form name="contattaci" method="post">
+              <div class="form-group">
+                <label><h6>Nome</h6></label>
+                <input type="text" name="nome" class="form-control" maxlength="20" required>
+              </div>
+              <div class="form-group">
+                <label><h6>Cognome</h6></label>
+                <input type="text" name="cognome" class="form-control" maxlength="20" required>
+              </div>
+              <div class="form-group">
+                <label><h6>Email</h6></label>
+                <input type="email" name="email" class="form-control" required>
+              </div>
+              <div class="form-group">
+                <label><h6>Messaggio</h6></label>
+                <textarea class="form-control" name="messaggio" rows="10" cols="30" required></textarea>
+              </div>
+              <input type="submit" class="btn" value="Invia">
+              <input type="reset"  class="btn" value="Reset">
+            </form>
+             </td></tr>
+           </table>
+         </div>
        <div class="column-contatti">
          <div style="overflow-x:auto;">
          <table align="center">
            <tr>
              <td align="center"><h1>CONTATTI</h1></td>
            </tr>
-           <tr><td>
+           <tr><td align="center">
             <form name="contatti">
                  <h7>ENGYM SPORT CLUB</h7>
                  <h6>Via Agrigento, 21, 00161 Roma RM</h6>
@@ -291,36 +314,10 @@
       </div>
 
     <!-- SEZIONE CONTATTACI -->
-    <div id="contattaci" class="row">
-      <div class="column-contattaci">
-        <table align="center">
-           <tr>
-             <td align="center"><h7>CONTATTACI</h7></td>
-           </tr>
-           <tr><td>
-         <form name="contattaci" method="post">
-             <div class="form-group">
-               <label><h6>Nome</h6></label>
-               <input type="text" name="nome" class="form-control" maxlength="20" required>
-             </div>
-             <div class="form-group">
-               <label><h6>Cognome</h6></label>
-               <input type="text" name="cognome" class="form-control" maxlength="20" required>
-             </div>
-             <div class="form-group">
-               <label><h6>Email</h6></label>
-               <input type="email" name="email" class="form-control" required>
-             </div>
-             <div class="form-group">
-               <label><h6>Messaggio</h6></label>
-               <textarea class="form-control" name="messaggio" rows="10" cols="30" required></textarea>
-             </div>
-             <input type="submit" class="btn" value="Invia">
-             <input type="reset"  class="btn" value="Reset">
-           </form>
-            </td></tr>
-          </table>
-        </div>
+    <div class="row">
+      <div class="column-maps">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2969.2071694347646!2d12.514374315859923!3d41.909904979219725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132f6170c67bddb1%3A0xd363c42f7482af0b!2sA.S.D+Le+Club!5e0!3m2!1sit!2sit!4v1511796118700" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </div>
     </div>
 </div>
 
