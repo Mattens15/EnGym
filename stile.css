@@ -44,6 +44,13 @@ h7{
   color: DarkRed;
 }
 
+h8{
+  font-size: 1em;
+  font-weight: bold;
+  font-family: "Roboto";
+  color: White;
+}
+
 hnav{
   font-size: 1em;
   font-family: "Roboto";
@@ -99,6 +106,14 @@ hnav{
   padding-right: 10%;
   padding-bottom: 5%;
   background-color: inherit;
+}
+
+.container-fluid-footer{
+  display: block;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 1%;
+  background-color: #696969;
 }
 
 .row{
@@ -240,11 +255,7 @@ hnav{
   height: auto;
 }
 
-footer{
-  padding-left: 10%;
-  height: 100%;
-  background-color: #696969;
-}
+
 
 .card{
   width: 100%;
