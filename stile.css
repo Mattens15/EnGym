@@ -228,7 +228,7 @@ hnav{
 
 
 .carousel-inner img{
-  height: 400px;
+  height: auto;
   border-style: solid;
   border-width: thin;
   border-color: black;
