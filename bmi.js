@@ -6,11 +6,9 @@ function storageInit(){
 function stampaStorage(){
   var u= JSON.parse(localStorage.bodymassindex);
   var l= u.length;
-  var d= new Date();
-  var today=d.getDate()+"/"+d.getMonth()+"/"+d.getFullYear();
   var s= new String("<h1>Storico indice di massa corporea:</h1>");
   for(var i=0;i<l;i++){
-    s+="<br/><h1>Data:"+today+" </h1><h1>BMI:</h1>"+u[i].bmi+" <h1>"+u[i].stato+"</h1><br/>";
+    s+="<br/><h1>Data:"+u[i].date+" </h1><h1>BMI:</h1>"+u[i].bmi+" <h1>"+u[i].stato+"</h1><br/>";
   }
   document.getElementById("storico").innerHTML=s;
 }
@@ -21,6 +19,10 @@ function inserisciBMI(){
   var next = u.length;
   var temp = new String();
   var tempbmi=document.bmiform.peso.value/((document.bmiform.altezza.value/100) * (document.bmiform.altezza.value/100));
+
+  var d= new Date();
+  var today=d.getDate()+"/"+d.getMonth()+"/"+d.getFullYear();
+
   if(document.bmiform.sesso.value=="M"){
     if(tempbmi<16.5){ temp="GRAVE MAGREZZA";}
     else if (tempbmi>=16.5 && tempbmi<=18.49){ temp="SOTTOPESO";}
@@ -41,6 +43,7 @@ function inserisciBMI(){
   }
 
   var o = {
+           date: today,
            bmi: tempbmi,
            stato: temp
          };

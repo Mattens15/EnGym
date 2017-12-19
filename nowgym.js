@@ -18,6 +18,6 @@ function attivitaGym(){
   }
   else{
     document.getElementById("palestraincorso").innerHTML="<h6>Ore "+h+":00: "+c[x][h-8]+"</h6>";
-    setInterval("attivita()",300000);
+    setInterval("attivitaGym()",300000);
   }
 }
